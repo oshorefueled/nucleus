@@ -1,6 +1,7 @@
 function index (req, res) {
-   res.send("Welcome To Nucleus.. Muahahahah");
+   res.send("Welcome to NUCLEUS.. Muahahahaha");
 }
+
 
 
 module.exports = {

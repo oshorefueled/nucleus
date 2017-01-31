@@ -13,9 +13,7 @@
 
 
 var routes = [{
-  path:"test", controller:"testcontroller",action:"index", reqType:"get"},
-  {path:"poster", controller:"updatecontroller", action:"update", reqType:"post"},
-  {path:"/", controller:"indexcontroller", action:"index", reqType:"get"}
+  path:"/", controller:"examplecontroller",action:"index", reqType:"get"}
 ];
 
 
