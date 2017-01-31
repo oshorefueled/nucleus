@@ -4,7 +4,6 @@ var app = express();
 
 //create port
 var port = process.env.PORT || 3000;
-
 app.listen(port);
 
 //start nucleus
