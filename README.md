@@ -12,9 +12,9 @@ The project was awesomely inspired by laravel project structure
     *body-parser
 
 
-### To Start:
-    * run npm install
-    * run npm start app.js
+### To Start, Run:
+    *  npm install
+    *  npm start 
 
 
 
