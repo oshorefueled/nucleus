@@ -1,14 +1,19 @@
 var express = require('express');
-var routes = require('./routes/web');
+var router = require('./lib/routing/router');
 var app = express();
 
-var routes = require('./routes/web');
-
+//create port
 var port = process.env.PORT || 3000;
 
 app.listen(port);
 
+//start nucleus
+router.start(app);
 
-var router = require('./lib/routing/router');
+
+
+app.get('/tester', function (req, res) {
+    res.send('tester is working');
+});
 
 

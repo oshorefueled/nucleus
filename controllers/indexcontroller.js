@@ -1,7 +1,6 @@
 function index (req, res) {
-   res.send("the index endpoint works");
+   res.send("Welcome To Nucleus.. Muahahahah");
 }
-
 
 
 module.exports = {
