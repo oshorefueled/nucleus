@@ -12,8 +12,13 @@
 
 
 
-var routes = [{
-  path:"/", controller:"examplecontroller",action:"index", reqType:"get"}
+var routes = [
+  {path:"/", controller:"examplecontroller",action:"index", reqType:"get"},
+
+  {prefix:'/v1', childRoutes:[
+    {path:"/prefix", controller:"examplecontroller",action:"prefix", reqType:"get"}
+   ]}
+
 ];
 
 

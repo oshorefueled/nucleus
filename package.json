@@ -1,7 +1,7 @@
 {
-  "name": "nodemvc",
+  "name": "nucleus",
   "version": "1.0.0",
-  "description": "an mvc structured node seed project",
+  "description": "A Nodejs MVC framework",
   "main": "index.js",
   "scripts": {
     "start" : "node app.js",
