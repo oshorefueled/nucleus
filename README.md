@@ -10,6 +10,7 @@ The project was awesomely inspired by laravel project structure
 ## Dependencies
     *express
     *body-parser
+    *mongoose
 
 
 ### To Start, Run:

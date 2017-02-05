@@ -1,5 +1,5 @@
 var express = require('express');
-var router = require('./lib/routing/router');
+var bootstrap = require('./bootstrap/app');
 var app = express();
 
 //create port
@@ -8,7 +8,7 @@ app.listen(port);
 console.log('.............\n Nucleus successfully started...\n Running nucleus on port ', port);
 
 //start nucleus
-router.start(app);
+bootstrap.start(app);
 
 
 
