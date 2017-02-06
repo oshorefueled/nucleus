@@ -19,10 +19,11 @@ The project was awesomely inspired by laravel project structure
     *  npm start 
 
 
-### Features:
-    #### Routing
+## Features:
+
+#### Routing
     *Map routes to controllers in app/routes/web.js
-    ##### Example
+    -Example
     {path:"/", controller:"examplecontroller",action:"index", reqType:"get"}
 
 
