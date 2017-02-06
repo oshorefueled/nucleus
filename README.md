@@ -22,8 +22,8 @@ The project was awesomely inspired by laravel project structure
 ## Features:
 
 #### Routing
-    *Map routes to controllers in app/routes/web.js
-    -Example
+    *Description: Map routes to controllers in app/routes/web.js
+    *Example:
      {path:"/", controller:"examplecontroller",action:"index", reqType:"get"}
 
 
