@@ -11,12 +11,19 @@ The project was awesomely inspired by laravel project structure
     *express
     *body-parser
     *mongoose
+    *bluebird
 
 
 ### To Start, Run:
     *  npm install
     *  npm start 
 
+
+### Features:
+    #### Routing
+    *Map routes to controllers in app/routes/web.js
+    ##### Example
+    {path:"/", controller:"examplecontroller",action:"index", reqType:"get"}
 
 
 
