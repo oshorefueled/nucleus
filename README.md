@@ -23,8 +23,27 @@ The project was awesomely inspired by laravel project structure
 
 #### Routing
     *Description: Map routes to controllers in app/routes/web.js
-    *Example:
+
+    *Basic route:
      {path:"/", controller:"examplecontroller",action:"index", reqType:"get"}
+
+    *Prefixes:
+    -Grouping  routes with prefixes
+    {prefix:'/v1', childRoutes:[
+        {path:"/user", controller:"examplecontroller",action:"getUser", reqType:"get"},
+        {path:"/login", controller:"examplecontroller",action:"index", reqType:"post"}
+       ]}
+    --visit route at example.com/v1/user
+
+    *Namespaces
+    -Organize controllers into directories and add them as namespaces
+    {prefix:'/v1', namespace:"auth", childRoutes:[
+        {path:"/auth", controller:"authcontroller",action:"index", reqType:"get"}
+       ]}
+
+
+
+
 
 
 
