@@ -16,8 +16,8 @@ var routes = [
   {path:"/", controller:"examplecontroller",action:"index", reqType:"get"},
   {path:"/users", controller:"examplecontroller",action:"createUsers", reqType:"post"},
 
-  {prefix:'/v1', childRoutes:[
-    {path:"/prefix", controller:"examplecontroller",action:"prefix", reqType:"get"}
+  {prefix:'/v1', namespace:"auth", childRoutes:[
+    {path:"/auth", controller:"authcontroller",action:"index", reqType:"get"}
    ]}
 
 ];

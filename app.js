@@ -3,7 +3,7 @@ var bootstrap = require('./bootstrap/app');
 var app = express();
 
 //create port
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 4000;
 app.listen(port);
 console.log('.............\n Nucleus successfully started...\n Running nucleus on port ', port);
 
